@@ -6,11 +6,11 @@ const Footer = () => {
       <div className="w-10/12 mx-auto">
         <SocialMediaIcons />
         <div className="md:flex justify-center md:justify-between text-center ">
-          <p className="font-playfair font-semibold text-2xl text-bluebody">
-            JANE ESPER
+          <p className="font-sedgwick font-semibold text-2xl text-bluebody">
+            Daedalus Digital Solutions
           </p>
           <p className="font-playfair text-md text-bluebody">
-            ©2022 DAEDALUS DIGITAL SOLUTIONS
+            ©2023 DAEDALUS DESIGNS
           </p>
           <p className="font-playfair text-md text-bluebody">
             All Rights Reserved
