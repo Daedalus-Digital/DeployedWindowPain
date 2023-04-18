@@ -25,7 +25,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
     <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-6`}>
       <div className="flex items-center justify-between mx-auto w-5/6">
         <AnchorLink href="#home" onClick={() => setSelectedPage("home")}>
-          <h4 className="font-playfair text-3xl font-bold text-ribcolororange cursor-pointer hover:opacity-90">
+          <h4 className="font-sedgwick text-3xl font-bold text-ribcolororange cursor-pointer hover:opacity-90">
             DDS
           </h4>
         </AnchorLink>
