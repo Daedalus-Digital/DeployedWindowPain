@@ -12,3 +12,14 @@ html, body, #root, .app {
 html {
     scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: #fb8c4a;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #000b41;
+    border-radius: 1px;
+}
