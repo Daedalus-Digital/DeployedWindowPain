@@ -15,7 +15,7 @@ const Landing = ({ setSelectedPage }) => {
 				{isAboveLarge ? (
 					<div
 						className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20 before:rounded-t-[400px]
-            before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-blue before:z-[-1]"
+            before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-orange-400 before:z-[-1]"
 					>
 						<img
 							alt="profile"
@@ -46,12 +46,19 @@ const Landing = ({ setSelectedPage }) => {
 					}}
 				>
 					<p className="text-6xl font-playfair z-10 text-center md:text-start">
-						<span className="text-yellow">D</span>aedalus{" "}
-						<span className="text-yellow">D</span>igital
+						<span className="text-ribcolororange">D</span>aedalus{" "}
+						<span className="text-ribcolororange">D</span>igital
 					</p>
 
 					<p className="mt-10 mb-7 text-sm text-center md:text-start">
 						Creating your digital vision. Pixel by pixel.
+					</p>
+					<p>
+						{" "}
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quas
+						quod earum dolore rem repellat dolorum. Iure distinctio illum
+						numquam eligendi sapiente architecto vitae deleniti voluptatum
+						accusamus!
 					</p>
 				</motion.div>
 
@@ -68,7 +75,7 @@ const Landing = ({ setSelectedPage }) => {
 					}}
 				>
 					<AnchorLink
-						className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
+						className="bg-gradient-orange text-deep-blue rounded-sm py-3 px-7 font-semibold
               hover:bg-blue hover:text-white transition duration-500"
 						onClick={() => setSelectedPage("contact")}
 						href="#contact"
@@ -76,11 +83,11 @@ const Landing = ({ setSelectedPage }) => {
 						Contact Us
 					</AnchorLink>
 					<AnchorLink
-						className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
+						className="rounded-r-sm bg-gradient-orange py-0.5 pr-0.5"
 						onClick={() => setSelectedPage("contact")}
 						href="#contact"
 					>
-						<div className="bg-deep-blue hover:text-red transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair">
+						<div className="bg-deep-blue hover:text-yellownpm r transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair">
 							Let's talk.
 						</div>
 					</AnchorLink>
