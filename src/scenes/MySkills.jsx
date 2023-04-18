@@ -68,7 +68,7 @@ const MySkills = () => {
                 Experience
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-[#ecc05c] absolute right-0 top-0 z-[-1]" />
+            <div className="w-1/2 md:w-3/4 h-32 bg-[#fdd474] absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
             A auctor pharetra hendrerit mattis amet etiam interdum platea. Est
