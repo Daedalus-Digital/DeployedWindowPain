@@ -1,37 +1,42 @@
+import { AiOutlineLinkedin } from "react-icons/ai";
+import { VscGithub } from "react-icons/vsc";
+import { FiDribbble } from "react-icons/fi";
+import { BsWhatsapp } from "react-icons/bs";
+
 const SocialMediaIcons = () => {
   return (
     <div className="flex justify-center md:justify-start my-10 gap-7">
       <a
-        className="hover:opacity-50 transition duration-500"
+        className="hover:opacity-80 transition duration-500"
         href="https://www.linkedin.com"
         target="_blank"
         rel="noreferrer"
       >
-        <img alt="linkedin-link" src="../assets/linkedin.png" />
+        <AiOutlineLinkedin className="w-[30px] h-[30px]" />
       </a>
       <a
-        className="hover:opacity-50 transition duration-500"
-        href="https://www.twitter.com"
+        className="hover:opacity-80 transition duration-500"
+        href="https://github.com/Daedalus-Digital"
         target="_blank"
         rel="noreferrer"
       >
-        <img alt="twitter-link" src="../assets/twitter.png" />
+        <VscGithub className="w-[30px] h-[30px]" />
       </a>
       <a
-        className="hover:opacity-50 transition duration-500"
-        href="https://www.facebook.com"
+        className="hover:opacity-80 transition duration-500"
+        href="https://www.dribbble.com"
         target="_blank"
         rel="noreferrer"
       >
-        <img alt="facebook-link" src="../assets/facebook.png" />
+        <FiDribbble className="w-[30px] h-[30px]" />
       </a>
       <a
-        className="hover:opacity-50 transition duration-500"
-        href="https://www.instagram.com"
+        className="hover:opacity-80 transition duration-500"
+        href="https://www.whatsapp.com"
         target="_blank"
         rel="noreferrer"
       >
-        <img alt="instagram-link" src="../assets/instagram.png" />
+        <BsWhatsapp className="w-[30px] h-[30px]" />
       </a>
     </div>
   );
