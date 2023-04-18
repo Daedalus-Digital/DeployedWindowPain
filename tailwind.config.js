@@ -76,6 +76,7 @@ export const theme = {
     fontFamily: {
       playfair: ["Playfair Display", "serif"],
       opensans: ["Open Sans", "sans-serif"],
+      sedgwick: ["Sedgwick Ave Display", "cursive"],
     },
     content: {
       brush: "url('./assets/brush.png')",
