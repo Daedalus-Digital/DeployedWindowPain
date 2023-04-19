@@ -1,4 +1,3 @@
-import LineGradient from "../components/LineGradient";
 import LineGradient2 from "../components/LineGradient2";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
@@ -20,8 +19,11 @@ const MySkills = () => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="font-playfair font-semibold text-4xl mb-5">
-            OUR <span className="text-ribcolororange">EXPERIENCE</span>
+          <p className="font-sedgwick font-semibold text-4xl mb-5 tracking-wide">
+            OUR{" "}
+            <span className="text-ribcolororange font-sedgwick">
+              EXPERIENCE
+            </span>
           </p>
           <LineGradient2 width="w-1/3" />
           <p className="mt-10 mb-7">

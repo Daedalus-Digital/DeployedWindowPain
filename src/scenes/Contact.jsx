@@ -1,4 +1,3 @@
-import LineGradient from "../components/LineGradient";
 import LineGradient2 from "../components/LineGradient2";
 import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";
@@ -33,7 +32,7 @@ const Contact = () => {
         className="flex justify-end w-full"
       >
         <div>
-          <p className="font-playfair font-semibold text-4xl justify-center">
+          <p className="font-sedgwick font-semibold text-4xl justify-center tracking-wider">
             <span className="text-ribcolororange">CONTACT </span>US TO GET
             <span className="text-ribcolororange"> STARTED</span>
           </p>

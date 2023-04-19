@@ -45,7 +45,7 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-6xl font-sedgwick z-10 text-center md:text-start">
+          <p className="text-6xl font-sedgwick z-10 text-center md:text-start tracking-wide">
             <span className="text-ribcolororange font-sedgwick">D</span>aedalus{" "}
             <span className="text-ribcolororange font-sedgwick">D</span>igital
           </p>

@@ -1,4 +1,3 @@
-import LineGradient from "../components/LineGradient";
 import LineGradient2 from "../components/LineGradient2";
 import { motion } from "framer-motion";
 
@@ -17,7 +16,7 @@ const Testimonials = () => {
           visible: { opacity: 1, x: 0 },
         }}
       >
-        <p className="font-playfair font-semibold text-4xl mb-5 text-white">
+        <p className="font-sedgwick font-semibold text-4xl mb-5 text-white tracking-widest">
           TEST<span className="text-ribcolororange">IMONIALS</span>
         </p>
         <LineGradient2 width="mx-auto w-2/5" />

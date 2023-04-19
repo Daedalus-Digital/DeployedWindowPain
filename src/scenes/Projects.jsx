@@ -1,4 +1,3 @@
-import LineGradient from "../components/LineGradient";
 import LineGradient2 from "../components/LineGradient2";
 import { motion } from "framer-motion";
 
@@ -51,8 +50,8 @@ const Projects = () => {
         }}
       >
         <div>
-          <p className="font-playfair font-semibold text-4xl">
-            <span className="text-ribcolororange">PRO</span>JECTS
+          <p className="font-sedgwick tracking-wide font-semibold text-4xl">
+            <span className="text-ribcolororange tracking-wide">PRO</span>JECTS
           </p>
           <div className="flex justify-center mt-5">
             <LineGradient2 width="w-2/3" />
