@@ -21,9 +21,8 @@ const Testimonials = () => {
           TEST<span className="text-ribcolororange">IMONIALS</span>
         </p>
         <LineGradient2 width="mx-auto w-2/5" />
-        <p className="mt-10">
-          Here's What People are Saying About My Work. Aliquam aliquet integer
-          ut fames odio in at. At magna ornare dictum lectus.
+        <p className="mt-10 text-2xl">
+          Here's What People Have To Say About Our Works:
         </p>
       </motion.div>
 
