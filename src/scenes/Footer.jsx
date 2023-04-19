@@ -2,7 +2,7 @@ import SocialMediaIcons from "../components/SocialMediaIcons";
 
 const Footer = () => {
   return (
-    <footer className="h-64 bg-ribcolororange pt-10">
+    <footer className="h-50 bg-ribcolororange pt-5">
       <div className="w-10/12 mx-auto">
         <SocialMediaIcons />
         <div className="md:flex justify-center md:justify-between text-center ">
@@ -15,6 +15,7 @@ const Footer = () => {
           <p className="font-playfair text-md text-bluebody">
             All Rights Reserved
           </p>
+          <br />
         </div>
       </div>
     </footer>
