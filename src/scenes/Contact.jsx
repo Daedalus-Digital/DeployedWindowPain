@@ -77,7 +77,7 @@ const Contact = () => {
             method="POST"
           >
             <input
-              className="w-full bg-ribcolororange font-semibold placeholder-bluebody p-3"
+              className="w-full bg-dark-grey font-semibold placeholder-grey hover:placeholder-opacity-75 p-3 border-2 border-bluebody rounded-lg"
               type="text"
               placeholder="NAME"
               {...register("name", {
@@ -93,7 +93,7 @@ const Contact = () => {
             )}
 
             <input
-              className="w-full bg-ribcolororange font-semibold placeholder-bluebody p-3 mt-5"
+              className="w-full bg-dark-grey font-semibold placeholder-grey hover:placeholder-opacity-75 p-3 mt-5 border-2 border-bluebody rounded-lg"
               type="text"
               placeholder="EMAIL"
               {...register("email", {
@@ -109,10 +109,10 @@ const Contact = () => {
             )}
 
             <textarea
-              className="w-full bg-ribcolororange font-semibold placeholder-bluebody p-3 mt-5"
+              className="w-full bg-dark-grey font-semibold placeholder-grey hover:placeholder-opacity-75 p-3 mt-5 border-2 border-bluebody rounded-lg"
               name="message"
               placeholder="MESSAGE"
-              rows="4"
+              rows="7"
               cols="50"
               {...register("message", {
                 required: true,
@@ -127,9 +127,9 @@ const Contact = () => {
                   "Max length is 2000 char."}
               </p>
             )}
-
+            <br />
             <button
-              className="p-5 bg-ribcolororange font-semibold text-bluebody mt-5 hover:bg-bluebody hover:text-ribcolororange"
+              className="p-5 bg-ribcolororange font-semibold text-grey mt-5 hover:bg-bluebody hover:text-ribcolororange hover:border-2 hover:border-grey"
               type="submit"
             >
               SEND US A MESSAGE
