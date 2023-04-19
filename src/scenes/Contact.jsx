@@ -77,7 +77,7 @@ const Contact = () => {
             method="POST"
           >
             <input
-              className="w-full bg-dark-grey font-semibold placeholder-grey hover:placeholder-opacity-75 p-3 border-2 border-bluebody rounded-lg"
+              className="w-full bg-dark-grey font-semibold placeholder-grey hover:placeholder-opacity-75 p-3 border-2 border-bluebody rounded-md"
               type="text"
               placeholder="NAME"
               {...register("name", {
@@ -93,7 +93,7 @@ const Contact = () => {
             )}
 
             <input
-              className="w-full bg-dark-grey font-semibold placeholder-grey hover:placeholder-opacity-75 p-3 mt-5 border-2 border-bluebody rounded-lg"
+              className="w-full bg-dark-grey font-semibold placeholder-grey hover:placeholder-opacity-75 p-3 mt-5 border-2 border-bluebody rounded-md"
               type="text"
               placeholder="EMAIL"
               {...register("email", {
@@ -109,7 +109,7 @@ const Contact = () => {
             )}
 
             <textarea
-              className="w-full bg-dark-grey font-semibold placeholder-grey hover:placeholder-opacity-75 p-3 mt-5 border-2 border-bluebody rounded-lg"
+              className="w-full bg-dark-grey font-semibold placeholder-grey hover:placeholder-opacity-75 p-3 mt-5 border-2 border-bluebody rounded-md"
               name="message"
               placeholder="MESSAGE"
               rows="7"
@@ -129,7 +129,7 @@ const Contact = () => {
             )}
             <br />
             <button
-              className="p-5 bg-ribcolororange font-semibold text-grey mt-5 hover:bg-bluebody hover:text-ribcolororange hover:border-2 hover:border-grey"
+              className="p-5 bg-ribcolororange font-semibold text-grey mt-5 hover:bg-bluebody hover:text-ribcolororange hover:border-2 hover:border-grey rounded-md"
               type="submit"
             >
               SEND US A MESSAGE
