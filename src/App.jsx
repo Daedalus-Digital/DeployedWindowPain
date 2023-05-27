@@ -11,6 +11,7 @@ import { useEffect, useState } from "react";
 import Testimonials from "./scenes/Testimonials";
 import { motion } from "framer-motion";
 import "./index.css";
+
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
   const [isTopOfPage, setIsTopOfPage] = useState(true);

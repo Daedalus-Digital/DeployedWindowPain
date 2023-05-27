@@ -39,7 +39,7 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="font-sedgwick text-6xl">“</p>
+          <p className="font-sedgwick text-6xl animate-pulse">“</p>
           <p className="text-center text-xl">
             A auctor pharetra hendrerit mattis amet etiam interdum platea.
           </p>
@@ -57,7 +57,7 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="font-sedgwick text-6xl">“</p>
+          <p className="font-sedgwick text-6xl animate-pulse">“</p>
           <p className="text-center text-xl">
             Aliquam aliquet integer ut fames odio in at. At magna ornare dictum
             lectus.
@@ -76,7 +76,7 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="font-sedgwick text-6xl">“</p>
+          <p className="font-sedgwick text-6xl animate-pulse">“</p>
           <p className="text-center text-xl">
             Fames odio in at. At magna ornare dictum lectus.
           </p>

@@ -21,7 +21,7 @@ const Project = ({ title }) => {
   const projectTitle = title.split(" ").join("-").toLowerCase();
 
   return (
-    <motion.div variants={projectVariant} className="relative">
+    <motion.div variants={projectVariant} className="relative cursor-pointer">
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7">
@@ -29,7 +29,11 @@ const Project = ({ title }) => {
           porttitor accumsan tincidunt.
         </p>
       </div>
-      <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
+      <img
+        src={`../assets/${projectTitle}.jpeg`}
+        alt={projectTitle}
+        className="duration-500"
+      />
     </motion.div>
   );
 };

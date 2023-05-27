@@ -71,7 +71,7 @@ const MySkills = () => {
                 Experienced
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-[#fdd474] absolute right-0 top-0 z-[-1]" />
+            <div className="w-1/2 md:w-3/4 h-32 bg-[#fdd474] absolute right-0 top-0 z-[-1] animate-pulse" />
           </div>
           <p className="mt-5">
             A auctor pharetra hendrerit mattis amet etiam interdum platea. Est
@@ -99,7 +99,7 @@ const MySkills = () => {
                 Innovative
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-sunyellow absolute right-0 top-0 z-[-1]" />
+            <div className="w-1/2 md:w-3/4 h-32 bg-sunyellow absolute right-0 top-0 z-[-1] animate-pulse" />
           </div>
           <p className="mt-5">
             Urna, eget pulvinar dolor cursus volutpat dictum odio. Nec ultricies
@@ -127,7 +127,7 @@ const MySkills = () => {
                 Imaginative
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-ribcolororange absolute right-0 top-0 z-[-1]" />
+            <div className="w-1/2 md:w-3/4 h-32 bg-ribcolororange absolute right-0 top-0 z-[-1] animate-pulse" />
           </div>
           <p className="mt-5">
             Accumsan eu fringilla nisi, eget. Vitae, eget ut id proin arcu in

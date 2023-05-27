@@ -45,14 +45,16 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-6xl font-sedgwick z-10 text-center md:text-start tracking-wide">
+          <p className="text-6xl font-sedgwick z-10 text-center md:text-start tracking-wide animate-bounce">
             <span className="text-ribcolororange font-sedgwick">D</span>aedalus{" "}
             <span className="text-ribcolororange font-sedgwick">D</span>igital
           </p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
             Creating your digital vision.{" "}
-            <span className="text-ribcolororange">Pixel by pixel.</span>
+            <span className="text-ribcolororange text-base animate-spin">
+              Pixel by pixel.
+            </span>
           </p>
           <p>
             {" "}
