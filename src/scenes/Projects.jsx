@@ -54,7 +54,7 @@ const Projects = () => {
         }}
       >
         <div>
-          <p className="font-sedgwick tracking-wide font-semibold text-4xl">
+          <p className="font-cinzeldecorative_bold tracking-wide font-semibold text-4xl">
             <span className="text-ribcolororange tracking-wide">PRO</span>JECTS
           </p>
           <div className="flex justify-center mt-5">

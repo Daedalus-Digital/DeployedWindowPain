@@ -19,9 +19,9 @@ const MySkills = () => {
 						visible: { opacity: 1, x: 0 },
 					}}
 				>
-					<p className="font-sedgwick font-semibold text-4xl mb-5 tracking-wide">
+					<p className="font-cinzeldecorative_bold font-semibold text-4xl mb-5 tracking-wide">
 						What MAKES US{" "}
-						<span className="text-ribcolororange font-sedgwick">DAEDALUS</span>
+						<span className="text-ribcolororange font-cinzeldecorative_bold">Icarian</span>
 					</p>
 					<LineGradient2 width="w-1/3" />
 					<p className="mt-10 mb-7 text-base">
@@ -65,7 +65,7 @@ const MySkills = () => {
 				>
 					<div className="relative h-32">
 						<div className="z-10">
-							<p className="font-sedgwick font-semibold text-5xl">01</p>
+							<p className="font-cinzeldecorative_bold font-semibold text-5xl">01</p>
 							<p className="font-playfair font-semibold text-2xl mt-3">
 								Experienced
 							</p>
@@ -94,7 +94,7 @@ const MySkills = () => {
 				>
 					<div className="relative h-32">
 						<div className="z-10">
-							<p className="font-sedgwick font-semibold text-5xl">02</p>
+							<p className="font-cinzeldecorative_bold font-semibold text-5xl">02</p>
 							<p className="font-playfair font-semibold text-2xl mt-3">
 								Innovative
 							</p>
@@ -121,7 +121,7 @@ const MySkills = () => {
 				>
 					<div className="relative h-32">
 						<div className="z-10">
-							<p className="font-sedgwick font-semibold text-5xl">03</p>
+							<p className="font-cinzeldecorative_bold font-semibold text-5xl">03</p>
 							<p className="font-playfair font-semibold text-2xl mt-3">
 								Creative
 							</p>

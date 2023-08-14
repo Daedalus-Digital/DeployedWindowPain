@@ -2,6 +2,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+    font-family: 'CinzelDecorative-Bold';
+    src: url('./fonts/CinzelDecorative-Bold.ttf');
+}
 
 html, body, #root, .app {
     height: 100%;

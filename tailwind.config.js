@@ -81,6 +81,7 @@ export const theme = {
       playfair: ["Playfair Display", "serif"],
       opensans: ["Open Sans", "sans-serif"],
       sedgwick: ["Sedgwick Ave Display", "cursive"],
+      cinzeldecorative_bold:["CinzelDecorative-Bold", "sans"]
     },
     content: {
       brush: "url('./assets/brush.png')",
