@@ -47,6 +47,7 @@ const Landing = ({ setSelectedPage }) => {
         >
           <p className="text-6xl font-cinzeldecorative_bold z-10 text-center md:text-start tracking-wide">
             <span className="text-ribcolororange font-cinzeldecorative_bold">I</span>carian{" "}
+            <div className="m-2"></div>
             <span className="text-ribcolororange font-cinzeldecorative_bold">D</span>igital
           </p>
 
