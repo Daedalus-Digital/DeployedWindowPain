@@ -48,11 +48,11 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
-            <Link
+            {/* <Link
               page="Testimonials"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
-            />
+            /> */}
             <Link
               page="Contact"
               selectedPage={selectedPage}
@@ -61,7 +61,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
           </div>
         ) : (
           <button
-            className="rounded-full bg-orange-500 p-2"
+            className="rounded-full bg-orange-500 p-2 transition duration-200"
             onClick={() => setIsMenuToggled(!isMenuToggled)}
           >
             <img alt="menu" src="../assets/menu-icon.svg" />
@@ -95,11 +95,11 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
-              <Link
+              {/* <Link
                 page="Testimonials"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
-              />
+              /> */}
               <Link
                 page="Contact"
                 selectedPage={selectedPage}
